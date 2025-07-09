@@ -14,15 +14,14 @@
 ![프로젝트 포스터](docs/poster.png)
 
 ---
-# ✨ 프로젝트 개요
+## 📅 프로젝트 개요
 
-- **진행 기간**: 2025.05.27 ~ 2025.06.17  
+- **진행 기간**: <span style="color:#6DB33F">2025.05.27</span> ~ <span style="color:#4285F4">2025.06.17</span>
 - **인원 구성**: 4인 팀 프로젝트
-- **슬로건**: _"최신 기술과 협업의 힘으로, 검색과 데이터의 새로운 경험을 만듭니다."_
 
 ---
 
-## 🚀 기술 스택 하이라이트
+## 🛠️ 기술 스택 하이라이트
 
 - **Backend**: Spring Boot, MyBatis, JWT 기반 인증
 - **Frontend**: React, Tailwind CSS, Zustand 등  
@@ -58,19 +57,59 @@
 
 ## ⚙️ 환경 및 구성
 
-| 항목         | 상세 내용                                                                                      |
-|--------------|-----------------------------------------------------------------------------------------------|
-| **운영체제**   | ![Windows](https://img.shields.io/badge/Windows_10-0078D6?style=flat&logo=windows&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white) |
-| **사용언어**   | Java, JavaScript, HTML, CSS, TypeScript, Python                                              |
-| **개발 언어**  | Java (JDK 8+)                                                                                |
-| **프레임워크** | Spring Boot (Spring MVC, Spring Security 포함)                                               |
-| **ORM**      | MyBatis                                                                                       |
-| **데이터베이스**| Oracle 11g 이상, MongoDB, Elasticsearch                                                     |
-| **빌드 도구**  | Gradle                                                                                       |
-| **WAS**      | Spring Boot Embedded Tomcat, Apache Tomcat                                                    |
-| **형상 관리**  | Git                                                                                          |
-| **협업 도구**  | Jira (이슈 관리), Notion (문서화), Slack, Confluence                                         |
-| **API 테스트** | Postman                                                                                      |
+<table>
+  <tr>
+    <th>항목</th>
+    <th>상세 내용</th>
+  </tr>
+  <tr>
+    <td>운영체제</td>
+    <td>
+      <img src="https://img.shields.io/badge/Windows_10-0078D6?style=flat&logo=windows&logoColor=white">
+      <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white">
+    </td>
+  </tr>
+  <tr>
+    <td>사용언어</td>
+    <td>Java, JavaScript, HTML, CSS, TypeScript, Python</td>
+  </tr>
+  <tr>
+    <td>개발 언어</td>
+    <td>Java (JDK 8+)</td>
+  </tr>
+  <tr>
+    <td>프레임워크</td>
+    <td>Spring Boot (Spring MVC, Spring Security 포함)</td>
+  </tr>
+  <tr>
+    <td>ORM</td>
+    <td>MyBatis</td>
+  </tr>
+  <tr>
+    <td>데이터베이스</td>
+    <td>Oracle 11g 이상, MongoDB, Elasticsearch</td>
+  </tr>
+  <tr>
+    <td>빌드 도구</td>
+    <td>Gradle</td>
+  </tr>
+  <tr>
+    <td>WAS</td>
+    <td>Spring Boot Embedded Tomcat, Apache Tomcat</td>
+  </tr>
+  <tr>
+    <td>형상 관리</td>
+    <td>Git</td>
+  </tr>
+  <tr>
+    <td>협업 도구</td>
+    <td>Jira (이슈 관리), Notion (문서화), Slack, Confluence</td>
+  </tr>
+  <tr>
+    <td>API 테스트</td>
+    <td>Postman</td>
+  </tr>
+</table>
 
 ---
 
@@ -84,11 +123,11 @@
 | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white) | 클라이언트 상호작용 구현 및 Ajax 요청 처리 |
 | ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white) | 반응형 UI 디자인 구현 |
 | ![MyBatis](https://img.shields.io/badge/MyBatis-000000?style=flat&logo=mybatis&logoColor=white) | View와 DB 간의 데이터 매핑 처리 (JSP ↔ DAO) |
-| **Next.js, React, TypeScript** | SPA/SSR 기반 프론트엔드 프레임워크, 타입 안정성 |
-| **Tailwind CSS, Radix UI** | 유틸리티 퍼스트 CSS, UI 컴포넌트 |
-| **Zustand** | 글로벌 상태 관리 |
-| **react-hook-form** | 폼 상태 관리 |
-| **Axios, Fetch API** | REST API 통신 |
+| <b>Next.js, React, TypeScript</b> | SPA/SSR 기반 프론트엔드 프레임워크, 타입 안정성 |
+| <b>Tailwind CSS, Radix UI</b> | 유틸리티 퍼스트 CSS, UI 컴포넌트 |
+| <b>Zustand</b> | 글로벌 상태 관리 |
+| <b>react-hook-form</b> | 폼 상태 관리 |
+| <b>Axios, Fetch API</b> | REST API 통신 |
 
 ### ⚙️ 백엔드
 
@@ -101,7 +140,7 @@
 | ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat&logo=spring-security&logoColor=white) | 사용자 인증/인가 및 세션 관리 구현 |
 | ![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=json-web-tokens&logoColor=white) | 토큰 기반 인증 구조, 무상태 인증 처리 방식 적용 |
 | ![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=flat&logo=socket.io&logoColor=white) | 1:1 실시간 채팅 서비스 |
-| **Flask** | Python 기반 API 서버 (특정 기능) |
+| <b>Flask</b> | Python 기반 API 서버 (특정 기능) |
 
 ---
 
@@ -114,7 +153,7 @@
 | ![Kakao](https://img.shields.io/badge/Kakao-FFCD00?style=flat&logo=kakao&logoColor=black) | 회원가입 주소 자동입력 |
 | ![OAuth2](https://img.shields.io/badge/OAuth2-4285F4?style=flat&logo=google&logoColor=white) ![Naver](https://img.shields.io/badge/Naver-03C75A?style=flat&logo=naver&logoColor=white) ![Kakao](https://img.shields.io/badge/Kakao-FFCD00?style=flat&logo=kakao&logoColor=black) | 소셜 로그인 연동 |
 | ![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=flat&logo=google&logoColor=white) | 도서 추천용 AI 챗봇 |
-| **Reddit, StackOverflow, HackerNews, DeepL** | 외부 데이터/번역 API 활용 |
+| <b>Reddit, StackOverflow, HackerNews, DeepL</b> | 외부 데이터/번역 API 활용 |
 
 ---
 
@@ -137,20 +176,20 @@
 
 ## 🤝 협업 툴 및 자동화
 
-- **Slack**: 팀 소통 및 실시간 알림 채널 운영  
-- **Confluence**: 팀원별 문서 관리 및 기능별 페이지 편집 권한 부여  
-- **Jira**: 스크럼 보드로 업무 분배 및 상태 관리, 완료 상태 알림 자동화  
-- **GitHub**:  
-  - GitHub Actions를 이용한 CI/CD 파이프라인 구축  
+- <img src="https://img.shields.io/badge/Slack-4A154B?style=flat&logo=slack&logoColor=white"> 팀 소통 및 실시간 알림 채널
+- <img src="https://img.shields.io/badge/Confluence-172B4D?style=flat&logo=confluence&logoColor=white"> 팀원별 문서 관리, 기능별 페이지 권한
+- <img src="https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white"> 스크럼 보드 업무 분배 및 상태 관리, 완료 알림 자동화
+- <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white">  
+  - GitHub Actions로 CI/CD 파이프라인 구축  
   - Push 시 Slack 알림 연동  
-  - GitHub Flow 전략을 적용한 효율적인 버전 관리 및 협업  
+  - GitHub Flow 전략 적용
 
 <details>
   <summary><strong>🛠️ 협업 도구 상세 보기</strong></summary>
 
 | 도구 | 역할 및 기능 | 자동화 및 특징 |
 |---|---|---|
-| Slack | 팀 내 실시간 커뮤니케이션 및 알림 | Jira, GitHub 이벤트 알림 자동 수신 |
+| Slack | 실시간 커뮤니케이션 및 알림 | Jira, GitHub 이벤트 알림 자동 수신 |
 | Confluence | 프로젝트 문서화, 핸드북 관리 | 팀원별 개인 페이지 제공 및 편집 권한 관리 |
 | Jira | 업무 스크럼 보드 관리 | 완료 상태 시 Slack 알림 자동 전송 |
 | GitHub | 코드 저장소 및 버전 관리 | Push 시 Slack 알림, GitHub Actions CI/CD 자동화 |
@@ -161,9 +200,9 @@
 
 ## 🐞 주요 이슈 및 협업 관리
 
-- 서버 메모리 이슈가 간헐적으로 발생했으나, 리소스 관리로 해결함.
-- 병합 충돌 없이 Git Flow 전략과 Sourcetree를 활용한 안정적인 브랜치 관리가 이루어짐.
-- GitHub Actions CI/CD는 사용하지 않았으며, GitHub Flow 기반 브랜치 관리와 Sourcetree로 협업함.
+- 서버 메모리 이슈가 간헐적으로 발생했으나, 리소스 관리로 해결
+- 병합 충돌 없이 Git Flow 전략과 Sourcetree로 안정적 브랜치 관리
+- GitHub Actions CI/CD는 미사용, GitHub Flow 기반 브랜치 관리와 Sourcetree 협업
 
 ---
 
