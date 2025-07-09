@@ -71,45 +71,79 @@
   </tr>
   <tr>
     <td>사용언어</td>
-    <td>Java, JavaScript, HTML, CSS, TypeScript, Python</td>
+    <td>
+      <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white">
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black">
+      <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white">
+      <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white">
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white">
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white">
+    </td>
   </tr>
   <tr>
     <td>개발 언어</td>
-    <td>Java (JDK 8+)</td>
+    <td>
+      <img src="https://img.shields.io/badge/Java(JDK_8+)-007396?style=flat&logo=java&logoColor=white">
+    </td>
   </tr>
   <tr>
     <td>프레임워크</td>
-    <td>Spring Boot (Spring MVC, Spring Security 포함)</td>
+    <td>
+      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white">
+      <img src="https://img.shields.io/badge/Spring_MVC-6DB33F?style=flat&logo=spring&logoColor=white">
+      <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=flat&logo=spring-security&logoColor=white">
+    </td>
   </tr>
   <tr>
     <td>ORM</td>
-    <td>MyBatis</td>
+    <td>
+      <img src="https://img.shields.io/badge/MyBatis-000000?style=flat&logo=mybatis&logoColor=white">
+    </td>
   </tr>
   <tr>
     <td>데이터베이스</td>
-    <td>Oracle 11g 이상, MongoDB, Elasticsearch</td>
+    <td>
+      <img src="https://img.shields.io/badge/Oracle_11g%2B-F80000?style=flat&logo=oracle&logoColor=white">
+      <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white">
+      <img src="https://img.shields.io/badge/Elasticsearch-005571?style=flat&logo=elasticsearch&logoColor=white">
+    </td>
   </tr>
   <tr>
     <td>빌드 도구</td>
-    <td>Gradle</td>
+    <td>
+      <img src="https://img.shields.io/badge/Gradle-02303A?style=flat&logo=gradle&logoColor=white">
+    </td>
   </tr>
   <tr>
     <td>WAS</td>
-    <td>Spring Boot Embedded Tomcat, Apache Tomcat</td>
+    <td>
+      <img src="https://img.shields.io/badge/Spring_Boot_Embedded_Tomcat-6DB33F?style=flat&logo=apachetomcat&logoColor=white">
+      <img src="https://img.shields.io/badge/Apache_Tomcat-F8DC75?style=flat&logo=apachetomcat&logoColor=black">
+    </td>
   </tr>
   <tr>
     <td>형상 관리</td>
-    <td>Git</td>
+    <td>
+      <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white">
+    </td>
   </tr>
   <tr>
     <td>협업 도구</td>
-    <td>Jira (이슈 관리), Notion (문서화), Slack, Confluence</td>
+    <td>
+      <img src="https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white">
+      <img src="https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=white">
+      <img src="https://img.shields.io/badge/Slack-4A154B?style=flat&logo=slack&logoColor=white">
+      <img src="https://img.shields.io/badge/Confluence-172B4D?style=flat&logo=confluence&logoColor=white">
+    </td>
   </tr>
   <tr>
     <td>API 테스트</td>
-    <td>Postman</td>
+    <td>
+      <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white">
+    </td>
   </tr>
 </table>
+
 
 ---
 
