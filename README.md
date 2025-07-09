@@ -218,7 +218,6 @@
 - <img src="https://img.shields.io/badge/Confluence-172B4D?style=flat&logo=confluence&logoColor=white"> 팀원별 문서 관리, 기능별 페이지 권한
 - <img src="https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white"> 스크럼 보드 업무 분배 및 상태 관리, 완료 알림 자동화
 - <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white">  
-  - GitHub Actions로 CI/CD 파이프라인 구축  
   - Push 시 Slack 알림 연동  
   - GitHub Flow 전략 적용
 
@@ -230,7 +229,7 @@
 | Slack | 실시간 커뮤니케이션 및 알림 | Jira, GitHub 이벤트 알림 자동 수신 |
 | Confluence | 프로젝트 문서화, 핸드북 관리 | 팀원별 개인 페이지 제공 및 편집 권한 관리 |
 | Jira | 업무 스크럼 보드 관리 | 완료 상태 시 Slack 알림 자동 전송 |
-| GitHub | 코드 저장소 및 버전 관리 | Push 시 Slack 알림, GitHub Actions CI/CD 자동화 |
+| GitHub | 코드 저장소 및 버전 관리 | Push 시 Slack 알림 |
 
 </details>
 
