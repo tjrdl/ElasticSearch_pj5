@@ -292,6 +292,8 @@
 
 <details>
 <summary>📷 시연 영상 및 발표 요약</summary>
+
+  
 - 📄 [화면 설계서](./docs/UI-Design-Document/README.md)  
 ### 🎥 시연 영상  
 📺 [👉 유튜브로 시연 영상 보러가기](https://youtu.be/QaNWE73Mm_g?si=qnytRfteBIAMXFIs)
@@ -426,7 +428,6 @@
 
 
 - 📄 [업무 분장표](./docs/Team_Task_Assignment_Phase5.pdf)
-- 📄 [화면 설계서](./docs/UI-Design-Document/README.md)  
 - 📄 [테이블 명세서](./docs/Table%20Schema.png)
 - 📄 [발표 자료는 릴리즈 페이지에서 확인하세요](https://github.com/yuriuser126/ElasticSearch_pj5/releases)
 - 📄 [프로그램 기술서 보러가기](./docs/tech-doc.md)
