@@ -185,12 +185,13 @@
 
 | API | 설명 |
 |---|---|
-| ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=swagger&logoColor=black) | API 명세 및 테스트 제공 |
-| ![Naver SMTP](https://img.shields.io/badge/Naver-03C75A?style=flat&logo=naver&logoColor=white) | 이메일 인증 시스템 구현 |
-| ![Kakao](https://img.shields.io/badge/Kakao-FFCD00?style=flat&logo=kakao&logoColor=black) | 회원가입 주소 자동입력 |
-| ![OAuth2](https://img.shields.io/badge/OAuth2-4285F4?style=flat&logo=google&logoColor=white) ![Naver](https://img.shields.io/badge/Naver-03C75A?style=flat&logo=naver&logoColor=white) ![Kakao](https://img.shields.io/badge/Kakao-FFCD00?style=flat&logo=kakao&logoColor=black) | 소셜 로그인 연동 |
-| ![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=flat&logo=google&logoColor=white) | 도서 추천용 AI 챗봇 |
-| <b>Reddit, StackOverflow, HackerNews, DeepL</b> | 외부 데이터/번역 API 활용 |
+| <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=swagger&logoColor=black"> | API 명세 및 테스트 제공 |
+| <img src="https://img.shields.io/badge/Naver-03C75A?style=flat&logo=naver&logoColor=white"> | 이메일 인증 시스템 구현 |
+| <img src="https://img.shields.io/badge/Kakao-FFCD00?style=flat&logo=kakao&logoColor=black"> | 회원가입 주소 자동입력 |
+| <img src="https://img.shields.io/badge/OAuth2-4285F4?style=flat&logo=google&logoColor=white"> <img src="https://img.shields.io/badge/Naver-03C75A?style=flat&logo=naver&logoColor=white"> <img src="https://img.shields.io/badge/Kakao-FFCD00?style=flat&logo=kakao&logoColor=black"> | 소셜 로그인 연동 |
+| <img src="https://img.shields.io/badge/Google_Gemini-4285F4?style=flat&logo=google&logoColor=white"> | 도서 추천용 AI 챗봇 |
+| <img src="https://img.shields.io/badge/Reddit-FF4500?style=flat&logo=reddit&logoColor=white"> <img src="https://img.shields.io/badge/StackOverflow-F58025?style=flat&logo=stackoverflow&logoColor=white"> <img src="https://img.shields.io/badge/HackerNews-FF6600?style=flat&logo=ycombinator&logoColor=white"> <img src="https://img.shields.io/badge/DeepL-0A83ED?style=flat&logo=deepl&logoColor=white"> | 외부 데이터/번역 API 활용 |
+
 
 ---
 
