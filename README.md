@@ -14,103 +14,151 @@
 ![프로젝트 포스터](docs/poster.png)
 
 ---
-📌 프로젝트 개요
-진행 기간: 2025.05.27 ~ 2025.06.17
+# 📌 프로젝트 개요
 
-인원 구성: 4인 팀 프로젝트
+- **진행 기간**: 2025.05.27 ~ 2025.06.17  
+- **인원 구성**: 4인 팀 프로젝트
 
-기술 스택:
+## 🛠️ 기술 스택
 
-Backend: Spring Boot, MyBatis, JWT 기반 인증
+- **Backend**: Spring Boot, MyBatis, JWT 기반 인증
+- **Frontend**: React, Tailwind CSS, Zustand 등  
+  <details>
+    <summary><strong>🎨 Frontend 상세 스택 보기</strong></summary>
 
-Frontend: React, Tailwind CSS, Zustand 등 (상세 내용은 아래 접이식 참조)
+    - **Framework**: Next.js, React, TypeScript  
+    - **Styling**: Tailwind CSS, Radix UI  
+    - **폼 관리**: react-hook-form (Zod는 설치만)  
+    - **상태 관리**: Zustand  
+    - **라우팅**: Next.js App Router + 일부 react-router-dom  
+    - **API 통신**: Axios, Fetch API  
+  </details>
+- **Infra**: Docker, MongoDB, Monstache 연동, Elasticsearch
+- **기타**: Swagger API 문서화, GitHub Flow 브랜치 관리 전략, Sourcetree 협업
 
-<details> <summary><strong>🎨 Frontend 상세 스택 보기</strong></summary>
-Framework: Next.js, React, TypeScript
+<details>
+  <summary>🔑 주요 기술 및 특화 요소 (클릭해서 보기)</summary>
 
-Styling: Tailwind CSS, Radix UI
-
-폼 관리: react-hook-form (Zod는 설치만)
-
-상태 관리: Zustand
-
-라우팅: Next.js App Router + 일부 react-router-dom
-
-API 통신: Axios, Fetch API
-
-</details>
-Infra: Docker, MongoDB, Monstache 연동, Elasticsearch
-
-기타: Swagger API 문서화, GitHub Flow 브랜치 관리 전략 및 Sourcetree를 통한 협업
-
-<details> <summary>🔑 주요 기술 및 특화 요소 (클릭해서 보기)</summary>
-형태소 분석(Nori): 한국어 및 영어 각각에 최적화된 Elasticsearch 형태소 분석기로 검색 정확도 향상
-
-Monstache 연동: MongoDB 데이터의 실시간 Elasticsearch 동기화
-
-Bool 쿼리 검색: 오타 및 유사도 반영한 고급 검색 구현
-
-네이버 맞춤법 검사기: 한글 오타 보정으로 검색 품질 향상
-
-JWT 기반 Spring Security: 보안성 높은 인증 시스템 구축
-
-config.toml 설정: Monstache 네임스페이스와 인덱스 매핑 관리
-
-React 키워드별 검색 기능 & 페이지네이션: 사용자 친화적 UI와 데이터 페이징 처리
-
-인프라: AWS EC2 배포 시도, Ubuntu+VirtualBox 환경 프론트 배포 완료
-
-상태 관리: Zustand 도입으로 효율적인 상태 관리 구현
+- **형태소 분석(Nori)**: 한국어/영어 최적화 Elasticsearch 형태소 분석기로 검색 정확도 향상
+- **Monstache 연동**: MongoDB 데이터의 실시간 Elasticsearch 동기화
+- **Bool 쿼리 검색**: 오타 및 유사도 반영 고급 검색 구현
+- **네이버 맞춤법 검사기**: 한글 오타 보정으로 검색 품질 향상
+- **JWT 기반 Spring Security**: 보안성 높은 인증 시스템 구축
+- **config.toml 설정**: Monstache 네임스페이스와 인덱스 매핑 관리
+- **React 키워드별 검색 & 페이지네이션**: 사용자 친화적 UI, 데이터 페이징 처리
+- **인프라**: AWS EC2 배포 시도, Ubuntu+VirtualBox 환경 프론트 배포 완료
+- **상태 관리**: Zustand 도입으로 효율적 상태 관리 구현
 
 </details>
-📦 개발 환경 구성
-<table> <thead> <tr> <th width="25%">카테고리</th> <th width="75%">상세 내용</th> </tr> </thead> <tbody> <tr> <td><img src="https://img.shields.io/badge/💻_개발_언어-4A90E2?style=flat&logoColor=white" alt="개발 언어"></td> <td>Java (JDK 8+)</td> </tr> <tr> <td><img src="https://img.shields.io/badge/🚀_프레임워크-7ED321?style=flat&logoColor=white" alt="프레임워크"></td> <td>Spring Boot (Spring MVC, Spring Security 포함)</td> </tr> <tr> <td><img src="https://img.shields.io/badge/🗄️_ORM-F5A623?style=flat&logoColor=white" alt="ORM"></td> <td>MyBatis</td> </tr> <tr> <td><img src="https://img.shields.io/badge/💾_데이터베이스-D0021B?style=flat&logoColor=white" alt="데이터베이스"></td> <td>Oracle 11g 이상</td> </tr> <tr> <td><img src="https://img.shields.io/badge/🔨_빌드_도구-9013FE?style=flat&logoColor=white" alt="빌드 도구"></td> <td>Gradle</td> </tr> <tr> <td><img src="https://img.shields.io/badge/🌐_WAS-50E3C2?style=flat&logoColor=white" alt="WAS"></td> <td>Spring Boot Embedded Tomcat</td> </tr> <tr> <td><img src="https://img.shields.io/badge/📂_형상_관리-BD10E0?style=flat&logoColor=white" alt="형상 관리"></td> <td>Git</td> </tr> <tr> <td><img src="https://img.shields.io/badge/🤝_협업_도구-4A90E2?style=flat&logoColor=white" alt="협업 도구"></td> <td>Jira (이슈 관리), Notion (문서화)</td> </tr> <tr> <td><img src="https://img.shields.io/badge/🧪_API_테스트-7ED321?style=flat&logoColor=white" alt="API 테스트"></td> <td>Postman</td> </tr> </tbody> </table>
-🛠️ 기술 스택
-🌐 프론트엔드
-<table> <thead> <tr> <th width="30%">기술</th> <th width="70%">설명</th> </tr> </thead> <tbody> <tr> <td><img src="https://img.shields.io/badge/JSP-007396?style=flat&logo=java&logoColor=white" alt="JSP"></td> <td>서버 사이드 렌더링 기반 동적 HTML 생성</td> </tr> <tr> <td><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript"> <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white" alt="jQuery"></td> <td>클라이언트 상호작용 구현 및 Ajax 요청 처리</td> </tr> <tr> <td><img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white" alt="Bootstrap"></td> <td>반응형 UI 디자인 구현</td> </tr> <tr> <td><img src="https://img.shields.io/badge/MyBatis-000000?style=flat&logo=mybatis&logoColor=white" alt="MyBatis"></td> <td>View와 DB 간의 데이터 매핑 처리 (JSP ↔ DAO)</td> </tr> </tbody> </table>
-⚙️ 백엔드
-<table> <thead> <tr> <th width="30%">기술</th> <th width="70%">설명</th> </tr> </thead> <tbody> <tr> <td><img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white" alt="Spring Boot"></td> <td>RESTful API 구현, 설정 자동화, 내장 톰캣 기반 서버 환경</td> </tr> <tr> <td><img src="https://img.shields.io/badge/Spring_MVC-6DB33F?style=flat&logo=spring&logoColor=white" alt="Spring MVC"></td> <td>계층화된 컨트롤러-서비스 구조로 웹 애플리케이션 구현</td> </tr> <tr> <td><img src="https://img.shields.io/badge/MyBatis-000000?style=flat&logo=mybatis&logoColor=white" alt="MyBatis"></td> <td>SQL 중심 ORM, DB 연동 및 동적 쿼리 처리</td> </tr> <tr> <td><img src="https://img.shields.io/badge/Oracle-F80000?style=flat&logo=oracle&logoColor=white" alt="Oracle"></td> <td>게시글/댓글/좋아요/거래 데이터 관리용 RDBMS</td> </tr> <tr> <td><img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=flat&logo=spring-security&logoColor=white" alt="Spring Security"></td> <td>사용자 인증/인가 및 세션 관리 구현</td> </tr> <tr> <td><img src="https://img.shields.io/badge/JWT-000000?style=flat&logo=json-web-tokens&logoColor=white" alt="JWT"></td> <td>토큰 기반 인증 구조, 무상태 인증 처리 방식 적용</td> </tr> <tr> <td><img src="https://img.shields.io/badge/WebSocket-010101?style=flat&logo=socket.io&logoColor=white" alt="WebSocket"></td> <td>1:1 실시간 채팅 서비스</td> </tr> </tbody> </table>
-🔌 외부 연동 API
-<table> <thead> <tr> <th width="30%">API</th> <th width="70%">설명</th> </tr> </thead> <tbody> <tr> <td><img src="https://img.shields.io/badge/Naver-03C75A?style=flat&logo=naver&logoColor=white" alt="Naver SMTP"></td> <td>이메일 인증 시스템 구현</td> </tr> <tr> <td><img src="https://img.shields.io/badge/Kakao-FFCD00?style=flat&logo=kakao&logoColor=black" alt="Kakao"></td> <td>회원가입 주소 자동입력</td> </tr> <tr> <td><img src="https://img.shields.io/badge/OAuth2-4285F4?style=flat&logo=google&logoColor=white" alt="OAuth2"> <img src="https://img.shields.io/badge/Naver-03C75A?style=flat&logo=naver&logoColor=white" alt="Naver"> <img src="https://img.shields.io/badge/Kakao-FFCD00?style=flat&logo=kakao&logoColor=black" alt="Kakao"></td> <td>소셜 로그인 연동</td> </tr> <tr> <td><img src="https://img.shields.io/badge/Google_Gemini-4285F4?style=flat&logo=google&logoColor=white" alt="Google Gemini"></td> <td>도서 추천용 AI 챗봇</td> </tr> </tbody> </table>
-💻 개발 도구
-<table> <thead> <tr> <th width="30%">도구</th> <th width="70%">역할</th> </tr> </thead> <tbody> <tr> <td><img src="https://img.shields.io/badge/IntelliJ_IDEA-000000?style=flat&logo=intellij-idea&logoColor=white" alt="IntelliJ"> <img src="https://img.shields.io/badge/Eclipse-2C2255?style=flat&logo=eclipse&logoColor=white" alt="Eclipse"></td> <td>Java 백엔드 및 Spring Boot 개발</td> </tr> <tr> <td><img src="https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white" alt="VS Code"></td> <td>프론트엔드, JSP 및 JS 개발</td> </tr> <tr> <td><img src="https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white" alt="Postman"></td> <td>API 테스트 및 디버깅</td> </tr> <tr> <td><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"></td> <td>프로젝트 버전 관리 및 협업</td> </tr> <tr> <td><img src="https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=white" alt="Notion"></td> <td>기획/기록/문서화</td> </tr> <tr> <td><img src="https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white" alt="Jira"></td> <td>업무 프로세스 관리, 일정 계획</td> </tr> </tbody> </table>
-🤝 협업 툴 및 자동화
-Slack: 팀 소통 및 실시간 알림 채널 운영
 
-Confluence: 팀원별 문서 관리 및 기능별 페이지 편집 권한 부여
+---
 
-Jira: 스크럼 보드로 업무 분배 및 상태 관리, 완료 상태 알림 자동화
+## 📦 개발 환경 구성
 
-GitHub:
+| 카테고리 | 상세 내용 |
+|---|---|
+| ![개발 언어](https://img.shields.io/badge/💻_개발_언어-4A90E2?style=flat&logoColor=white) | Java (JDK 8+) |
+| ![프레임워크](https://img.shields.io/badge/🚀_프레임워크-7ED321?style=flat&logoColor=white) | Spring Boot (Spring MVC, Spring Security 포함) |
+| ![ORM](https://img.shields.io/badge/🗄️_ORM-F5A623?style=flat&logoColor=white) | MyBatis |
+| ![데이터베이스](https://img.shields.io/badge/💾_데이터베이스-D0021B?style=flat&logoColor=white) | Oracle 11g 이상 |
+| ![빌드 도구](https://img.shields.io/badge/🔨_빌드_도구-9013FE?style=flat&logoColor=white) | Gradle |
+| ![WAS](https://img.shields.io/badge/🌐_WAS-50E3C2?style=flat&logoColor=white) | Spring Boot Embedded Tomcat |
+| ![형상 관리](https://img.shields.io/badge/📂_형상_관리-BD10E0?style=flat&logoColor=white) | Git |
+| ![협업 도구](https://img.shields.io/badge/🤝_협업_도구-4A90E2?style=flat&logoColor=white) | Jira (이슈 관리), Notion (문서화) |
+| ![API 테스트](https://img.shields.io/badge/🧪_API_테스트-7ED321?style=flat&logoColor=white) | Postman |
 
-GitHub Actions를 이용한 CI/CD 파이프라인 구축
+---
 
-Push 시 Slack 알림 연동
+## 🛠️ 기술 스택
 
-GitHub Flow 전략을 적용한 효율적인 버전 관리 및 협업
+### 🌐 프론트엔드
 
-<details> <summary><strong>🛠️ 협업 도구 상세 보기</strong></summary>
-도구	역할 및 기능	자동화 및 특징
-Slack	팀 내 실시간 커뮤니케이션 및 알림	Jira, GitHub 이벤트 알림 자동 수신
-Confluence	프로젝트 문서화, 핸드북 관리	팀원별 개인 페이지 제공 및 편집 권한 관리
-Jira	업무 스크럼 보드 관리	완료 상태 시 Slack 알림 자동 전송
-GitHub	코드 저장소 및 버전 관리	Push 시 Slack 알림, GitHub Actions CI/CD 자동화
+| 기술 | 설명 |
+|---|---|
+| ![JSP](https://img.shields.io/badge/JSP-007396?style=flat&logo=java&logoColor=white) | 서버 사이드 렌더링 기반 동적 HTML 생성 |
+| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white) | 클라이언트 상호작용 구현 및 Ajax 요청 처리 |
+| ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white) | 반응형 UI 디자인 구현 |
+| ![MyBatis](https://img.shields.io/badge/MyBatis-000000?style=flat&logo=mybatis&logoColor=white) | View와 DB 간의 데이터 매핑 처리 (JSP ↔ DAO) |
+
+### ⚙️ 백엔드
+
+| 기술 | 설명 |
+|---|---|
+| ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white) | RESTful API 구현, 설정 자동화, 내장 톰캣 기반 서버 환경 |
+| ![Spring MVC](https://img.shields.io/badge/Spring_MVC-6DB33F?style=flat&logo=spring&logoColor=white) | 계층화된 컨트롤러-서비스 구조로 웹 애플리케이션 구현 |
+| ![MyBatis](https://img.shields.io/badge/MyBatis-000000?style=flat&logo=mybatis&logoColor=white) | SQL 중심 ORM, DB 연동 및 동적 쿼리 처리 |
+| ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat&logo=oracle&logoColor=white) | 게시글/댓글/좋아요/거래 데이터 관리용 RDBMS |
+| ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat&logo=spring-security&logoColor=white) | 사용자 인증/인가 및 세션 관리 구현 |
+| ![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=json-web-tokens&logoColor=white) | 토큰 기반 인증 구조, 무상태 인증 처리 방식 적용 |
+| ![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=flat&logo=socket.io&logoColor=white) | 1:1 실시간 채팅 서비스 |
+
+---
+
+## 🔌 외부 연동 API
+
+| API | 설명 |
+|---|---|
+| ![Naver SMTP](https://img.shields.io/badge/Naver-03C75A?style=flat&logo=naver&logoColor=white) | 이메일 인증 시스템 구현 |
+| ![Kakao](https://img.shields.io/badge/Kakao-FFCD00?style=flat&logo=kakao&logoColor=black) | 회원가입 주소 자동입력 |
+| ![OAuth2](https://img.shields.io/badge/OAuth2-4285F4?style=flat&logo=google&logoColor=white) ![Naver](https://img.shields.io/badge/Naver-03C75A?style=flat&logo=naver&logoColor=white) ![Kakao](https://img.shields.io/badge/Kakao-FFCD00?style=flat&logo=kakao&logoColor=black) | 소셜 로그인 연동 |
+| ![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=flat&logo=google&logoColor=white) | 도서 추천용 AI 챗봇 |
+
+---
+
+## 💻 개발 도구
+
+| 도구 | 역할 |
+|---|---|
+| ![IntelliJ](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=flat&logo=intellij-idea&logoColor=white) ![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=flat&logo=eclipse&logoColor=white) | Java 백엔드 및 Spring Boot 개발 |
+| ![VS Code](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white) | 프론트엔드, JSP 및 JS 개발 |
+| ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white) | API 테스트 및 디버깅 |
+| ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white) | 프로젝트 버전 관리 및 협업 |
+| ![Notion](https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=white) | 기획/기록/문서화 |
+| ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white) | 업무 프로세스 관리, 일정 계획 |
+
+---
+
+## 🤝 협업 툴 및 자동화
+
+- **Slack**: 팀 소통 및 실시간 알림 채널 운영  
+- **Confluence**: 팀원별 문서 관리 및 기능별 페이지 편집 권한 부여  
+- **Jira**: 스크럼 보드로 업무 분배 및 상태 관리, 완료 상태 알림 자동화  
+- **GitHub**:  
+  - GitHub Actions를 이용한 CI/CD 파이프라인 구축  
+  - Push 시 Slack 알림 연동  
+  - GitHub Flow 전략을 적용한 효율적인 버전 관리 및 협업  
+
+<details>
+  <summary><strong>🛠️ 협업 도구 상세 보기</strong></summary>
+
+| 도구 | 역할 및 기능 | 자동화 및 특징 |
+|---|---|---|
+| Slack | 팀 내 실시간 커뮤니케이션 및 알림 | Jira, GitHub 이벤트 알림 자동 수신 |
+| Confluence | 프로젝트 문서화, 핸드북 관리 | 팀원별 개인 페이지 제공 및 편집 권한 관리 |
+| Jira | 업무 스크럼 보드 관리 | 완료 상태 시 Slack 알림 자동 전송 |
+| GitHub | 코드 저장소 및 버전 관리 | Push 시 Slack 알림, GitHub Actions CI/CD 자동화 |
+
 </details>
-🐞 주요 이슈 및 협업 관리
-서버 메모리 이슈가 간헐적으로 발생했으나, 리소스 관리로 해결함.
 
-병합 충돌 없이 Git Flow 전략과 Sourcetree를 활용한 안정적인 브랜치 관리가 이루어짐.
+---
 
-GitHub Actions CI/CD는 사용하지 않았으며, GitHub Flow 기반 브랜치 관리와 Sourcetree로 협업함.
+## 🐞 주요 이슈 및 협업 관리
 
-🧩 주요 기능
-기능	설명
+- 서버 메모리 이슈가 간헐적으로 발생했으나, 리소스 관리로 해결함.
+- 병합 충돌 없이 Git Flow 전략과 Sourcetree를 활용한 안정적인 브랜치 관리가 이루어짐.
+- GitHub Actions CI/CD는 사용하지 않았으며, GitHub Flow 기반 브랜치 관리와 Sourcetree로 협업함.
 
-🔐 JWT 인증	사용자 로그인/인가 토큰 처리
-🔄 Monstache 연동	MongoDB → Elasticsearch 실시간 데이터 동기화
-🔍 형태소 검색	Elasticsearch + Nori 분석기로 자연어 검색
-📊 Swagger	API 명세 및 테스트 제공
-⬇️ CSV/Excel 다운로드	API 응답 데이터 다운로드 기능
+---
+
+## 🧩 주요 기능
+
+| 기능 | 설명 |
+|---|---|
+| 🔐 JWT 인증 | 사용자 로그인/인가 토큰 처리 |
+| 🔄 Monstache 연동 | MongoDB → Elasticsearch 실시간 데이터 동기화 |
+| 🔍 형태소 검색 | Elasticsearch + Nori 분석기로 자연어 검색 |
+| 📊 Swagger | API 명세 및 테스트 제공 |
+| ⬇️ CSV/Excel 다운로드 | API 응답 데이터 다운로드 기능 |
 
 ---
 
