@@ -153,28 +153,31 @@
 
 | 기술 | 설명 |
 |---|---|
-| ![JSP](https://img.shields.io/badge/JSP-007396?style=flat&logo=java&logoColor=white) | 서버 사이드 렌더링 기반 동적 HTML 생성 |
-| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white) | 클라이언트 상호작용 구현 및 Ajax 요청 처리 |
-| ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white) | 반응형 UI 디자인 구현 |
-| ![MyBatis](https://img.shields.io/badge/MyBatis-000000?style=flat&logo=mybatis&logoColor=white) | View와 DB 간의 데이터 매핑 처리 (JSP ↔ DAO) |
-| <b>Next.js, React, TypeScript</b> | SPA/SSR 기반 프론트엔드 프레임워크, 타입 안정성 |
-| <b>Tailwind CSS, Radix UI</b> | 유틸리티 퍼스트 CSS, UI 컴포넌트 |
-| <b>Zustand</b> | 글로벌 상태 관리 |
-| <b>react-hook-form</b> | 폼 상태 관리 |
-| <b>Axios, Fetch API</b> | REST API 통신 |
+| <img src="https://img.shields.io/badge/JSP-007396?style=flat&logo=java&logoColor=white"> | 서버 사이드 렌더링 기반 동적 HTML 생성 |
+| <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white"> | 클라이언트 상호작용 구현 및 Ajax 요청 처리 |
+| <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white"> | 반응형 UI 디자인 구현 |
+| <img src="https://img.shields.io/badge/MyBatis-000000?style=flat&logo=mybatis&logoColor=white"> | View와 DB 간의 데이터 매핑 처리 (JSP ↔ DAO) |
+| <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white"> <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white"> | SPA/SSR 기반 프론트엔드 프레임워크, 타입 안정성 |
+| <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white"> <img src="https://img.shields.io/badge/Radix_UI-000000?style=flat"> | 유틸리티 퍼스트 CSS, UI 컴포넌트 |
+| <img src="https://img.shields.io/badge/Zustand-000000?style=flat"> | 글로벌 상태 관리 |
+| <img src="https://img.shields.io/badge/react--hook--form-EC5990?style=flat"> | 폼 상태 관리 |
+| <img src="https://img.shields.io/badge/Axios-5A29E4?style=flat&logo=axios&logoColor=white"> <img src="https://img.shields.io/badge/Fetch_API-000000?style=flat"> | REST API 통신 |
+
+---
 
 ### ⚙️ 백엔드
 
 | 기술 | 설명 |
 |---|---|
-| ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white) | RESTful API 구현, 설정 자동화, 내장 톰캣 기반 서버 환경 |
-| ![Spring MVC](https://img.shields.io/badge/Spring_MVC-6DB33F?style=flat&logo=spring&logoColor=white) | 계층화된 컨트롤러-서비스 구조로 웹 애플리케이션 구현 |
-| ![MyBatis](https://img.shields.io/badge/MyBatis-000000?style=flat&logo=mybatis&logoColor=white) | SQL 중심 ORM, DB 연동 및 동적 쿼리 처리 |
-| ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat&logo=oracle&logoColor=white) | 게시글/댓글/좋아요/거래 데이터 관리용 RDBMS |
-| ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat&logo=spring-security&logoColor=white) | 사용자 인증/인가 및 세션 관리 구현 |
-| ![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=json-web-tokens&logoColor=white) | 토큰 기반 인증 구조, 무상태 인증 처리 방식 적용 |
-| ![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=flat&logo=socket.io&logoColor=white) | 1:1 실시간 채팅 서비스 |
-| <b>Flask</b> | Python 기반 API 서버 (특정 기능) |
+| <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white"> | RESTful API 구현, 설정 자동화, 내장 톰캣 기반 서버 환경 |
+| <img src="https://img.shields.io/badge/Spring_MVC-6DB33F?style=flat&logo=spring&logoColor=white"> | 계층화된 컨트롤러-서비스 구조로 웹 애플리케이션 구현 |
+| <img src="https://img.shields.io/badge/MyBatis-000000?style=flat&logo=mybatis&logoColor=white"> | SQL 중심 ORM, DB 연동 및 동적 쿼리 처리 |
+| <img src="https://img.shields.io/badge/Oracle-F80000?style=flat&logo=oracle&logoColor=white"> | 게시글/댓글/좋아요/거래 데이터 관리용 RDBMS |
+| <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=flat&logo=spring-security&logoColor=white"> | 사용자 인증/인가 및 세션 관리 구현 |
+| <img src="https://img.shields.io/badge/JWT-000000?style=flat&logo=json-web-tokens&logoColor=white"> | 토큰 기반 인증 구조, 무상태 인증 처리 방식 적용 |
+| <img src="https://img.shields.io/badge/WebSocket-010101?style=flat&logo=socket.io&logoColor=white"> | 1:1 실시간 채팅 서비스 |
+| <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white"> | Python 기반 API 서버 (특정 기능) |
+
 
 ---
 
