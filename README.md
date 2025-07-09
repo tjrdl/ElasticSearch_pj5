@@ -51,7 +51,7 @@
 </tr>
 <tr>
 <td><img src="https://img.shields.io/badge/📂_형상_관리-BD10E0?style=flat&logoColor=white" alt="형상 관리"></td>
-<td>Git, GitHub Actions CI/CD</td>
+<td>Git</td>
 </tr>
 <tr>
 <td><img src="https://img.shields.io/badge/🤝_협업_도구-4A90E2?style=flat&logoColor=white" alt="협업 도구"></td>
