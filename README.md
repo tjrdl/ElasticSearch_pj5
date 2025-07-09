@@ -19,6 +19,8 @@
 - **진행 기간**: 2025.05.27 ~ 2025.06.17  
 - **인원 구성**: 4인 팀 프로젝트
 
+---
+
 ## 🛠️ 기술 스택
 
 - **Backend**: Spring Boot, MyBatis, JWT 기반 인증
@@ -53,23 +55,25 @@
 
 ---
 
-## 📦 개발 환경 구성
+## ⚙️ 환경 및 구성
 
-| 카테고리 | 상세 내용 |
-|---|---|
-| ![개발 언어](https://img.shields.io/badge/💻_개발_언어-4A90E2?style=flat&logoColor=white) | Java (JDK 8+) |
-| ![프레임워크](https://img.shields.io/badge/🚀_프레임워크-7ED321?style=flat&logoColor=white) | Spring Boot (Spring MVC, Spring Security 포함) |
-| ![ORM](https://img.shields.io/badge/🗄️_ORM-F5A623?style=flat&logoColor=white) | MyBatis |
-| ![데이터베이스](https://img.shields.io/badge/💾_데이터베이스-D0021B?style=flat&logoColor=white) | Oracle 11g 이상 |
-| ![빌드 도구](https://img.shields.io/badge/🔨_빌드_도구-9013FE?style=flat&logoColor=white) | Gradle |
-| ![WAS](https://img.shields.io/badge/🌐_WAS-50E3C2?style=flat&logoColor=white) | Spring Boot Embedded Tomcat |
-| ![형상 관리](https://img.shields.io/badge/📂_형상_관리-BD10E0?style=flat&logoColor=white) | Git |
-| ![협업 도구](https://img.shields.io/badge/🤝_협업_도구-4A90E2?style=flat&logoColor=white) | Jira (이슈 관리), Notion (문서화) |
-| ![API 테스트](https://img.shields.io/badge/🧪_API_테스트-7ED321?style=flat&logoColor=white) | Postman |
+| 항목         | 상세 내용                                                                                      |
+|--------------|-----------------------------------------------------------------------------------------------|
+| **운영체제**   | Windows 10, Ubuntu                                                                           |
+| **사용언어**   | Java, JavaScript, HTML, CSS, TypeScript, Python                                              |
+| **개발 언어**  | Java (JDK 8+)                                                                                |
+| **프레임워크** | Spring Boot (Spring MVC, Spring Security 포함)                                               |
+| **ORM**      | MyBatis                                                                                       |
+| **데이터베이스**| Oracle 11g 이상, MongoDB, Elasticsearch                                                     |
+| **빌드 도구**  | Gradle                                                                                       |
+| **WAS**      | Spring Boot Embedded Tomcat, Apache Tomcat                                                    |
+| **형상 관리**  | Git                                                                                          |
+| **협업 도구**  | Jira (이슈 관리), Notion (문서화), Slack, Confluence                                         |
+| **API 테스트** | Postman                                                                                      |
 
 ---
 
-## 🛠️ 기술 스택
+## 🛠️ 기술 스택 상세
 
 ### 🌐 프론트엔드
 
@@ -79,6 +83,11 @@
 | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white) | 클라이언트 상호작용 구현 및 Ajax 요청 처리 |
 | ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white) | 반응형 UI 디자인 구현 |
 | ![MyBatis](https://img.shields.io/badge/MyBatis-000000?style=flat&logo=mybatis&logoColor=white) | View와 DB 간의 데이터 매핑 처리 (JSP ↔ DAO) |
+| **Next.js, React, TypeScript** | SPA/SSR 기반 프론트엔드 프레임워크, 타입 안정성 |
+| **Tailwind CSS, Radix UI** | 유틸리티 퍼스트 CSS, UI 컴포넌트 |
+| **Zustand** | 글로벌 상태 관리 |
+| **react-hook-form** | 폼 상태 관리 |
+| **Axios, Fetch API** | REST API 통신 |
 
 ### ⚙️ 백엔드
 
@@ -91,6 +100,7 @@
 | ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat&logo=spring-security&logoColor=white) | 사용자 인증/인가 및 세션 관리 구현 |
 | ![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=json-web-tokens&logoColor=white) | 토큰 기반 인증 구조, 무상태 인증 처리 방식 적용 |
 | ![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=flat&logo=socket.io&logoColor=white) | 1:1 실시간 채팅 서비스 |
+| **Flask** | Python 기반 API 서버 (특정 기능) |
 
 ---
 
@@ -98,10 +108,12 @@
 
 | API | 설명 |
 |---|---|
+| ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=swagger&logoColor=black) | API 명세 및 테스트 제공 |
 | ![Naver SMTP](https://img.shields.io/badge/Naver-03C75A?style=flat&logo=naver&logoColor=white) | 이메일 인증 시스템 구현 |
 | ![Kakao](https://img.shields.io/badge/Kakao-FFCD00?style=flat&logo=kakao&logoColor=black) | 회원가입 주소 자동입력 |
 | ![OAuth2](https://img.shields.io/badge/OAuth2-4285F4?style=flat&logo=google&logoColor=white) ![Naver](https://img.shields.io/badge/Naver-03C75A?style=flat&logo=naver&logoColor=white) ![Kakao](https://img.shields.io/badge/Kakao-FFCD00?style=flat&logo=kakao&logoColor=black) | 소셜 로그인 연동 |
 | ![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=flat&logo=google&logoColor=white) | 도서 추천용 AI 챗봇 |
+| **Reddit, StackOverflow, HackerNews, DeepL** | 외부 데이터/번역 API 활용 |
 
 ---
 
@@ -110,11 +122,15 @@
 | 도구 | 역할 |
 |---|---|
 | ![IntelliJ](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=flat&logo=intellij-idea&logoColor=white) ![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=flat&logo=eclipse&logoColor=white) | Java 백엔드 및 Spring Boot 개발 |
+| ![Spring Tool Suite](https://img.shields.io/badge/Spring_Tool_Suite-6DB33F?style=flat&logo=spring&logoColor=white) | Spring Boot 개발 |
+| ![Oracle SQL Developer](https://img.shields.io/badge/Oracle_SQL_Developer-F80000?style=flat&logo=oracle&logoColor=white) | Oracle DB 관리 |
 | ![VS Code](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white) | 프론트엔드, JSP 및 JS 개발 |
 | ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white) | API 테스트 및 디버깅 |
 | ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white) | 프로젝트 버전 관리 및 협업 |
 | ![Notion](https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=white) | 기획/기록/문서화 |
 | ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white) | 업무 프로세스 관리, 일정 계획 |
+| ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) | 컨테이너 기반 배포 |
+| ![Sourcetree](https://img.shields.io/badge/Sourcetree-0052CC?style=flat&logo=sourcetree&logoColor=white) | Git GUI 협업 툴 |
 
 ---
 
@@ -159,6 +175,7 @@
 | 🔍 형태소 검색 | Elasticsearch + Nori 분석기로 자연어 검색 |
 | 📊 Swagger | API 명세 및 테스트 제공 |
 | ⬇️ CSV/Excel 다운로드 | API 응답 데이터 다운로드 기능 |
+
 
 ---
 
