@@ -105,6 +105,7 @@ GitHub Actions CI/CD는 사용하지 않았으며, GitHub Flow 기반 브랜치 
 
 🧩 주요 기능
 기능	설명
+
 🔐 JWT 인증	사용자 로그인/인가 토큰 처리
 🔄 Monstache 연동	MongoDB → Elasticsearch 실시간 데이터 동기화
 🔍 형태소 검색	Elasticsearch + Nori 분석기로 자연어 검색
