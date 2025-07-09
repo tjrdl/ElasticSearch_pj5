@@ -14,14 +14,15 @@
 ![프로젝트 포스터](docs/poster.png)
 
 ---
-# 📌 프로젝트 개요
+# ✨ 프로젝트 개요
 
 - **진행 기간**: 2025.05.27 ~ 2025.06.17  
 - **인원 구성**: 4인 팀 프로젝트
+- **슬로건**: _"최신 기술과 협업의 힘으로, 검색과 데이터의 새로운 경험을 만듭니다."_
 
 ---
 
-## 🛠️ 기술 스택
+## 🚀 기술 스택 하이라이트
 
 - **Backend**: Spring Boot, MyBatis, JWT 기반 인증
 - **Frontend**: React, Tailwind CSS, Zustand 등  
@@ -39,7 +40,7 @@
 - **기타**: Swagger API 문서화, GitHub Flow 브랜치 관리 전략, Sourcetree 협업
 
 <details>
-  <summary>🔑 주요 기술 및 특화 요소 (클릭해서 보기)</summary>
+  <summary>🔑 <strong>주요 기술 및 특화 요소 (클릭해서 보기)</strong></summary>
 
 - **형태소 분석(Nori)**: 한국어/영어 최적화 Elasticsearch 형태소 분석기로 검색 정확도 향상
 - **Monstache 연동**: MongoDB 데이터의 실시간 Elasticsearch 동기화
@@ -59,7 +60,7 @@
 
 | 항목         | 상세 내용                                                                                      |
 |--------------|-----------------------------------------------------------------------------------------------|
-| **운영체제**   | Windows 10, Ubuntu                                                                           |
+| **운영체제**   | ![Windows](https://img.shields.io/badge/Windows_10-0078D6?style=flat&logo=windows&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white) |
 | **사용언어**   | Java, JavaScript, HTML, CSS, TypeScript, Python                                              |
 | **개발 언어**  | Java (JDK 8+)                                                                                |
 | **프레임워크** | Spring Boot (Spring MVC, Spring Security 포함)                                               |
@@ -73,7 +74,7 @@
 
 ---
 
-## 🛠️ 기술 스택 상세
+## 🖥️ 기술 스택 상세
 
 ### 🌐 프론트엔드
 
@@ -117,7 +118,7 @@
 
 ---
 
-## 💻 개발 도구
+## 🛠️ 개발 도구
 
 | 도구 | 역할 |
 |---|---|
@@ -176,6 +177,14 @@
 | 📊 Swagger | API 명세 및 테스트 제공 |
 | ⬇️ CSV/Excel 다운로드 | API 응답 데이터 다운로드 기능 |
 
+---
+
+## 🎉 프로젝트 한눈에 보기
+
+- **다양한 기술 조합**: Java, Python, JavaScript, TypeScript, HTML, CSS 등 다양한 언어와 프레임워크를 적극 활용
+- **검색 품질과 사용자 경험**: 형태소 분석, 오타 교정, 실시간 데이터 동기화, 고급 검색 등으로 차별화된 검색 경험 제공
+- **효율적 협업**: Slack, Jira, Confluence, GitHub, Sourcetree 등 협업 및 자동화 도구 적극 도입
+- **클린 코드 & 자동화**: CI/CD, 코드 리뷰, 문서화 등 품질과 유지보수성을 고려한 개발 프로세스
 
 ---
 
