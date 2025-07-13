@@ -172,11 +172,9 @@
 | <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white"> | RESTful API 구현, 설정 자동화, 내장 톰캣 기반 서버 환경 |
 | <img src="https://img.shields.io/badge/Spring_MVC-6DB33F?style=flat&logo=spring&logoColor=white"> | 계층화된 컨트롤러-서비스 구조로 웹 애플리케이션 구현 |
 | <img src="https://img.shields.io/badge/MyBatis-000000?style=flat&logo=mybatis&logoColor=white"> | SQL 중심 ORM, DB 연동 및 동적 쿼리 처리 |
-| <img src="https://img.shields.io/badge/Oracle-F80000?style=flat&logo=oracle&logoColor=white"> | 게시글/댓글/좋아요/거래 데이터 관리용 RDBMS |
 | <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=flat&logo=spring-security&logoColor=white"> | 사용자 인증/인가 및 세션 관리 구현 |
 | <img src="https://img.shields.io/badge/JWT-000000?style=flat&logo=json-web-tokens&logoColor=white"> | 토큰 기반 인증 구조, 무상태 인증 처리 방식 적용 |
-| <img src="https://img.shields.io/badge/WebSocket-010101?style=flat&logo=socket.io&logoColor=white"> | 1:1 실시간 채팅 서비스 |
-| <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white"> | Python 기반 API 서버 (특정 기능) |
+| <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white"> | Python 기반 API 서버 |
 
 
 ---
@@ -189,7 +187,6 @@
 | <img src="https://img.shields.io/badge/Naver-03C75A?style=flat&logo=naver&logoColor=white"> | 이메일 인증 시스템 구현 |
 | <img src="https://img.shields.io/badge/Kakao-FFCD00?style=flat&logo=kakao&logoColor=black"> | 회원가입 주소 자동입력 |
 | <img src="https://img.shields.io/badge/OAuth2-4285F4?style=flat&logo=google&logoColor=white"> <img src="https://img.shields.io/badge/Naver-03C75A?style=flat&logo=naver&logoColor=white"> <img src="https://img.shields.io/badge/Kakao-FFCD00?style=flat&logo=kakao&logoColor=black"> | 소셜 로그인 연동 |
-| <img src="https://img.shields.io/badge/Google_Gemini-4285F4?style=flat&logo=google&logoColor=white"> | 도서 추천용 AI 챗봇 |
 | <img src="https://img.shields.io/badge/Reddit-FF4500?style=flat&logo=reddit&logoColor=white"> <img src="https://img.shields.io/badge/StackOverflow-F58025?style=flat&logo=stackoverflow&logoColor=white"> <img src="https://img.shields.io/badge/HackerNews-FF6600?style=flat&logo=ycombinator&logoColor=white"> <img src="https://img.shields.io/badge/DeepL-0A83ED?style=flat&logo=deepl&logoColor=white"> | 외부 데이터/번역 API 활용 |
 
 
